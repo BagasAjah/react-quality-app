@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Todo-App {
+  padding-top: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+input {
+  font-size: 20px;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+span.delete-item a {
+  text-decoration: none;
+  color: red;
+}
+
+li:hover .delete-item {
+  visibility: visible;
+}
+
+li span.delete-item {
+  visibility: hidden;
+}
+
+.error {
+  color: red;
+}
+
+.succes {
+  color: green;
+}
+
+.footer a {
+  padding-left: 2px;
+  padding-right: 2px;
+  text-decoration: none;
+}
+
+.footer a.active {
+  font-weight: bold;
+}
